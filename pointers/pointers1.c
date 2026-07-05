@@ -14,7 +14,7 @@ int main() {
 	int initial_value = 0;
 	int new_value = 1;
 	    
-	// both variables have the same initial value (modified
+	// both variables have the same initial value
 	int passed_as_pointer = initial_value; 
 	int passed_as_copy = initial_value;
 	
