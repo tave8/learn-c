@@ -13,8 +13,8 @@ void assert_equal_int(int expected, int actual, char test_name[]);
 int main() {
 	int initial_value = 0;
 	int new_value = 1;
-	
-	// both variables have the same initial value
+	    
+	// both variables have the same initial value (modified
 	int passed_as_pointer = initial_value; 
 	int passed_as_copy = initial_value;
 	
